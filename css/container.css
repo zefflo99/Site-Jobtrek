@@ -1,163 +1,151 @@
-/* première parti */
+/* première est troisième partie */
 
-.group-1,
-.group-1 * {
-  box-sizing: border-box;
-}
+
 .group-1 {
-  position: absolute;
-  inset: 0;
-}
-.group-2 {
-  width: 1332px;
-  height: 349px;
-  position: static;
-}
-.photo-1 {
-  border-radius: 16px;
-  width: 598px;
-  height: 327px;
-  position: absolute;
-  left: 842px;
-  top: 815px;
-}
-.photo-2 {
-  background: linear-gradient(
-    116.9deg,
-    rgba(235, 63, 87, 0.4) 0%,
-    rgba(23, 10, 101, 0.4) 100%
-  );
-  border-radius: 0px 324.5px 0px 324.5px;
-  width: 594.29px;
-  height: 327px;
-  position: absolute;
-  left: 3.71px;
-  top: 0px;
-}
-.titre-dec {
-  color: var(--indium-technology-red, #eb3f57);
-  text-align: left;
-  font: 700 36px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  left: 194px;
-  top: 793px;
-  width: 464.05px;
-  height: 44.77px;
-}
-.text-dec {
-  color: #ffffff;
-  text-align: left;
-  font: 400 21px "Open Sans", sans-serif;
-  position: absolute;
-  left: 108px;
-  top: 908px;
-  width: 637px;
-}
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 150px;
+  }
+  
+.text-first h3 {
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    color: var(--indium-technology-red, #EB3F57);
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
 
-/* fin première partit */
+.text-first {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 200px;
+  }
+
+ 
+  
+.photo-1 {
+    flex: 1; 
+    max-width: 40%;
+    margin-top: 150px; 
+    
+  }
+  
+
+
 
 /* deuxième partie */
 
-.group-22,
-.group-22 * {
-  box-sizing: border-box;
+  .group-2 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 150px;
+  }
+  
+.text-second h3 {
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    color: var(--indium-technology-red, #EB3F57);
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+.text-second {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 200px;
+
+  }
+
+ 
+  
+.photo-2 {
+    flex: 1; 
+    max-width: 40%;
+    margin-top: 150px; 
+    
+  }
+
+/* vitality box */
+
+.rectangle {
+    background: linear-gradient(
+      180deg,
+      rgba(123, 27, 50, 1) 0%,
+      rgba(123, 27, 50, 0) 100%
+    );
+    border-radius: 16px;
+    width: 388px;
+    height: 404px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    margin-bottom: 300px;
+  }
+
+
+.box-team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
 }
-.group-22 {
-  position: absolute;
-  inset: 0;
+
+.team-box {
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
 }
-.dec-2 {
-  background: linear-gradient(
-    108.25deg,
-    rgba(235, 63, 87, 0.5) 0%,
-    rgba(21, 9, 68, 0.5) 59.89583134651184%
-  );
-  border-radius: 302px 0px 302px 0px;
-  width: 598px;
-  height: 327px;
-  position: absolute;
-  left: 0px;
-  top: 1376px;
-}
-.titre-dec2 {
-  color: var(--indium-technology-red, #eb3f57);
-  text-align: left;
-  font: 700 36px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  left: 803px;
-  top: 1354px;
-  width: 464.05px;
-  height: 44.26px;
-}
-.text-dec2 {
+
+.team-name h4 {
   color: #ffffff;
-  text-align: left;
-  font: 400 21px "Open Sans", sans-serif;
-  position: absolute;
-  left: 716px;
-  top: 1477px;
-  width: 637px;
+  text-align: center;
+  font: 700 27px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+} 
+
+
+
+
+.photo-vi img {
+  width: 173px;
+  height: 173px;
+  
+  
 }
 
-/* troisième partit */
-
-.group-23,
-.group-23 * {
-  box-sizing: border-box;
-}
-.group-23 {
-  position: absolute;
-  inset: 0;
-}
-.photo-4 {
-  border-radius: 16px;
-  width: 598px;
-  height: 327px;
-  position: absolute;
-  left: 846px;
-  top: 1978px;
-}
-.photo-5 {
-  background: linear-gradient(
-    116.9deg,
-    rgba(235, 63, 87, 0.4) 0%,
-    rgba(23, 10, 101, 0.4) 100%
-  );
-  border-radius: 0px 324.5px 0px 324.5px;
-  width: 594.29px;
-  height: 327px;
-  position: absolute;
-  left: 3.71px;
-  top: 0px;
-}
-.titre-dec3 {
-  color: var(--indium-technology-red, #eb3f57);
-  text-align: left;
-  font: 700 36px "Open Sans", sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  left: 190px;
-  top: 1956px;
-  width: 464.05px;
-  height: 44.26px;
-}
-.text-dec3 {
-  color: #ffffff;
-  text-align: left;
-  font: 400 21px "Open Sans", sans-serif;
-  position: absolute;
-  left: 113px;
-  top: 2072px;
-  width: 637px;
-}
-
-.logo-container{
-  margin-top: 500px;
+.photo-fn img {
+  width: 173px;
+  height: 173px;
+  
 }
 
 
+.photo-in img {
+  width: 173px;
+  height: 173px;
+
+}
 
 
 
