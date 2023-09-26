@@ -1,0 +1,11 @@
+.group-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+.photo-1, .photo-5 {
+    position: relative;
+    margin-left: 1200px
+  }
+
+.text-second, .text-tree {}
