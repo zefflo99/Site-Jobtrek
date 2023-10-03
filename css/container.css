@@ -30,7 +30,6 @@
     line-height: normal;
     margin-left: 200px;
   }
-
  
   
 .photo-1 {
@@ -40,7 +39,6 @@
     
   }
   
-
 
 
 /* deuxième partie */
@@ -68,7 +66,7 @@
 .text-second {
     color: #FFF;
     font-family: Open Sans;
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -127,6 +125,7 @@
 
 
 
+
 .photo-vi img {
   width: 173px;
   height: 173px;
@@ -146,11 +145,4 @@
   height: 173px;
 
 }
-
-
-
-
-
-
-
 
