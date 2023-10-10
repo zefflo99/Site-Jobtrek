@@ -13,7 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-
 html {
   /* reset */
   padding: 0;
@@ -35,7 +34,6 @@ a {
 a:hover {
   opacity: 0.6;
 }
-
 
 .menu1 {
   background-color: black;
@@ -69,13 +67,11 @@ a:hover {
   margin-left: 50px;
 }
 
-
 .left2-menu img.logo {
   width: 150px;
   margin-left: 10px;
   margin-top: 20px;
 }
-
 
 .right-menu a {
   text-decoration: none;
@@ -84,7 +80,6 @@ a:hover {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
 }
-
 
 .image-container {
   display: flex;
@@ -136,23 +131,28 @@ a:hover {
   font-size: large;
 }
 
+@media (max-width: 600px) {
+  .titre {
+    font-size: 24px; /* Réduire la taille de la police pour les petits écrans */
+    left: 10px; /* Ajuster la position */
+    margin-left: 20px; /* Ajuster la marge gauche */
+  }
 
+  .titre h1,
+  .titre p,
+  .titre button {
+    margin-bottom: 30px; /* Réduire la marge en bas */
+  }
 
-
-
-
-
-
-
+  .image-container button {
+    width: 180px; /* Réduire la largeur du bouton */
+    height: 56px; /* Réduire la hauteur du bouton */
+    font-size: medium; /* Réduire la taille de la police du bouton */
+  }
+}
 
 @media screen and (max-width: 899px) and (min-height: 926px) {
- 
   .menu1 {
     display: none;
   }
-
 }
-
-
-
-
